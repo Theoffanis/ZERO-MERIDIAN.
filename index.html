@@ -13,6 +13,59 @@
 
   <!-- Demo styles -->
 
+<style>
+    /* Base styles (default for desktop or large screens) */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+
+    /* Tablet (width ≤ 1024px) */
+    @media (max-width: 1024px) {
+      .container {
+        width: 90%;
+      }
+    }
+
+    /* Mobile (width ≤ 768px) */
+    @media (max-width: 768px) {
+      body {
+        font-size: 16px;
+      }
+      .container {
+        width: 95%;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    /* Small mobile (width ≤ 480px) */
+    @media (max-width: 480px) {
+      body {
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+
+
+
+
+
+
+
+
+
 </head>
 <body>
     <!--header-->
